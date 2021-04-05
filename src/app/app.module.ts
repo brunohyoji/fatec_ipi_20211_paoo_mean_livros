@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LivroInserirComponent } from './livros/livro-inserir/livro-inserir.component';
 import { LivroListaComponent } from './livros/livro-lista/livro-lista.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CabecalhoComponent } from './cabecalho/cabecalho.component';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
